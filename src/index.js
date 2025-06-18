@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "primereact/resources/themes/lara-light-cyan/theme.css"; //theme
+import "primereact/resources/primereact.css";  //core css
+import "primeicons/primeicons.css"; //icons
+
+import "primeflex/primeflex.css";  //flex utilities
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
