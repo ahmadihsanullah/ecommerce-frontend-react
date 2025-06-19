@@ -3,9 +3,11 @@ import Mainpage from "../../components/Mainpage.js";
 const DashboardAdmin = () => {
     return(
         <Mainpage>
-            <div className="main-comtent">
-                <div className="content-header">
-                    <h2>Dashboard</h2>
+            <div className="main-content">
+                <div className="content">
+                    <div className="content-header">
+                        <h2>Dashboard</h2>
+                    </div>
                 </div>
             </div>
         </Mainpage>

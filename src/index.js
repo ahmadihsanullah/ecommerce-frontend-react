@@ -7,14 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import "primereact/resources/themes/lara-light-cyan/theme.css"; //theme
 import "primereact/resources/primereact.css";  //core css
 import "primeicons/primeicons.css"; //icons
-
 import "primeflex/primeflex.css";  //flex utilities
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
