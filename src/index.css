@@ -66,3 +66,12 @@ html {
 .sidebar .p-menu .p-menuitem .p-menuitem-icon {
   margin-right: 5px;
 }
+
+.login-panel {
+  width: 260px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  margin: 32px auto;
+}

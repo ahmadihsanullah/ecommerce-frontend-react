@@ -9,11 +9,14 @@ import "primereact/resources/primereact.css";  //core css
 import "primeicons/primeicons.css"; //icons
 import "primeflex/primeflex.css";  //flex utilities
 import { BrowserRouter } from 'react-router-dom';
+import { AuthProvider } from './auth/useAuth';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+    <AuthProvider>
+      <App />
+    </AuthProvider>
   </BrowserRouter>
 );
 
