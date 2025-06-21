@@ -5,6 +5,7 @@ import DashboardAdmin from './pages/admin/DashboardAdmin';
 import HomePage from './pages/HomePage';
 import SigninPage from './pages/SigninPage';
 import ProtectedRoute from './components/ProtectedRoute';
+import KategoriAdmin from './pages/admin/KategoriAdmin';
 
 function App() {
   return (
@@ -16,6 +17,11 @@ function App() {
           <ProtectedRoute >
             <DashboardAdmin />
           </ProtectedRoute >
+        } />
+        <Route path="/admin/kategori" element={
+          <ProtectedRoute>
+            <KategoriAdmin />
+          </ProtectedRoute>
         } />
       </Routes>
     </div>
