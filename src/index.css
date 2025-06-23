@@ -88,3 +88,18 @@ html {
 .content-header {
   margin-bottom: 16px;
 }
+
+.my-progress-bar {
+  z-index: 10000;
+  height: 4px!important;
+}
+
+.cell-link {
+  text-decoration: none;
+  color: #2478dd;
+  font-weight: 600;
+}
+
+.cell-link:hover {
+  text-decoration: underline;
+}
