@@ -103,3 +103,19 @@ html {
 .cell-link:hover {
   text-decoration: underline;
 }
+
+.image-display-wrapper {
+  width: 256px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.image-display {
+  max-width: 100%;
+}
+
+.icon-display.pi {
+  font-size: 128px;
+  display: inline-block;
+  color: #2478dd;
+}
